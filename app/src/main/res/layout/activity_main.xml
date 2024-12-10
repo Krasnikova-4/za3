@@ -27,8 +27,7 @@
             android:layout_width="125dp"
             android:layout_height="125dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/ic_launcher_foreground"
-            tools:srcCompat="@drawable/d70ca7ce87b1521a7b712edbcfa29efe" />
+            app:srcCompat="@drawable/d70ca7ce87b1521a7b712edbcfa29efe" />
     </FrameLayout>
 
     <LinearLayout
@@ -124,44 +123,49 @@
             android:id="@+id/imageView8"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@drawable/a175cea63ff8b2da56491ff73873faf3" />
+            app:srcCompat="@drawable/a175cea63ff8b2da56491ff73873faf3" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@drawable/aaa" />
+            app:srcCompat="@drawable/aaa" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@drawable/orig" />
+            app:srcCompat="@drawable/orig" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@drawable/i__2_" />
+            app:srcCompat="@drawable/i__2_" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@drawable/izobrazhenie_2021_11_10_182033" />
+            app:srcCompat="@drawable/izobrazhenie_2021_11_10_182033" />
 
         <ImageView
 
             android:id="@+id/imageView3"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@drawable/i__3_" />
+            app:srcCompat="@drawable/i__3_" />
     </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="44dp"
+        android:text="На вторую страницу"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayot"
+        android:onClick="onBack"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
